@@ -80,3 +80,15 @@ span{
     font-size: 36px;
     margin: 0px 8px 0px 8px;
 }
+.copyright{
+    font-size: 18px;
+    line-height: 0px;
+    border: 1px;
+}
+/* 
+.design-icon{
+    font-size: 48px;
+} */
+h5{
+    font-weight: bold;
+}
