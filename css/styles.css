@@ -17,6 +17,7 @@
 
 .about-us{
     padding: 20px;
+    height: 350px;
 }
 
 .services{
@@ -85,10 +86,30 @@ span{
     line-height: 0px;
     border: 1px;
 }
-/* 
-.design-icon{
+
+.design-icon,.development-icon,.product-icon{
     font-size: 48px;
-} */
+    margin: 8px 0px 8px 0px;
+} 
 h5{
     font-weight: bold;
 }
+
+.hide-info{
+    display: none;
+}
+/* .overlay{
+    
+    
+ background-color: rgba(50,50,50,1);
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ overflow: hidden;
+ top: 0;
+ left: 0;
+ display: none;
+ z-index: 1;
+
+} */
+
