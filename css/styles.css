@@ -1,0 +1,70 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-image: url('/images/backgrounds/h_img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header-container{
+    padding-top: 100px;
+}
+
+.about-us{
+    padding: 20px;
+}
+
+.services{
+    background-image: url('/images/backgrounds/s_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: white;
+
+}
+
+.services >.container{
+
+    padding-top: 10%;
+
+}
+
+.center-div{
+    margin: 20px auto;
+    width: 80%;
+    
+}
+
+.contact-us{
+    background-image: url('/images/backgrounds/c_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+
+}
+
+.transparent-input{
+    background-color: rgba(0, 0, 0, 0);
+    border:white 1px solid;
+    background:transparent;
+    border-radius: 0px 0px 0px 0px ;
+
+}
+
+.transparent-input::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+.transparent-input:focus{
+    background: transparent;
+    color: white;
+
+}
