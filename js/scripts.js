@@ -22,17 +22,33 @@ $(document).ready(function(event){
 });
 
 //Adding Mouse  hover function
-// $(document).ready(function(event){
 
-//     // $(".img-fluid").on("mouseenter","img",function(){
-//     //     //$(this).find(".overlay").fadeIn(400);
-//     //     alert("image hover");
-//     // });
-//     // $(".portfolio").on("mouseleave","img",function(){
-//     //     $(this).find(".overlay").stop().fadeOut(400);
-//     // });
-//     $(".portfolio").on("mouseenter", function(){
-//         $(this).find("img").css({"border": "2px solid green"}).fadeIn(300);
-//     });
-// });
+$(document).ready(function(){
+   
+    $(".image-container img").mouseenter(function(){
 
+        $(".image-overlay").show();
+    });
+    $(".image-container img").mouseleave(function(){
+
+        $(".image-overlay").hide();
+    });
+
+
+
+    
+   
+        
+          
+          
+
+   
+
+
+    
+
+
+
+
+
+});
