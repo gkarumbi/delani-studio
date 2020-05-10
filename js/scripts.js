@@ -25,14 +25,14 @@ $(document).ready(function(event){
 
 $(document).ready(function(){
    
-    $(".image-container img").mouseenter(function(){
+    $(".img-fluid").mouseenter(function(){
 
         $(".image-overlay").show();
     });
-    $(".image-container img").mouseleave(function(){
+    $(".img-fluid").mouseleave(function(){
 
         $(".image-overlay").hide();
     });
 
-
+  
 });
