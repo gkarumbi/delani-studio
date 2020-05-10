@@ -35,20 +35,4 @@ $(document).ready(function(){
     });
 
 
-
-    
-   
-        
-          
-          
-
-   
-
-
-    
-
-
-
-
-
 });
